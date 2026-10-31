@@ -11,8 +11,7 @@ import '../models/book.dart';
 ///                    http://localhost:8080/books_api_response.json (iOS / web)
 ///  - Real API:       https://api.kitabi.com.eg/v2/books
 const String booksUrl =
-    'https://raw.githubusercontent.com/soly2004/kitabi_marketplace/main/books_api_response.json';
-
+    'https://raw.githubusercontent.com/soly2004/Ketabi/main/books_api_response.json';
 /// Thrown when the server answers with a non-200 status code.
 class ApiException implements Exception {
   final int statusCode;
